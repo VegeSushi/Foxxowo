@@ -3,8 +3,12 @@
     "name": "Foxxowo",
     "version": "1.0",
     "description": "Owoifies web pages",
+    "icons": {
+        "48": "icon.png"
+    },
     "browser_action": {
-        "default_title": "Owoify"
+        "default_title": "Owoify",
+        "default_icon": "icon.png"
     },
     "permissions": [
         "activeTab",
